@@ -168,7 +168,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	/*background: url(../img/img-p-1.JPG) center center no-repeat;*/
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -176,11 +176,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.4);
+	background: rgba(153, 118, 118, 0.1);
 }
 .intro h1 {
 	font-family: 'Rochester', cursive;
-	color: #fff;
+	color: rgb(104, 218, 233);
 	font-size: 10em;
 	font-weight: 400;
 	margin-top: 0;
@@ -196,6 +196,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-top: 150px;
 }
 header .intro-text {
+	font-family: 'Rochester', cursive;
 	padding-top: 200px;
 	padding-bottom: 50px;
 	text-align: center;
