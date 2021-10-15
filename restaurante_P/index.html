@@ -453,25 +453,25 @@
     <div class="row">
       <div class="col-xs-12 col-md-6">
         <div class="w3-content w3-section" style="max-width:600px;padding-top: 0; margin-top: 0;">
-          <img class="mySlides" src="img/Museo/Museo1.jpg" style="padding-left: 50px;width:100%;padding-top: 80px">
-          <img class="mySlides" src="img/Museo/Museo2.jpg" style="padding-left: 50px;width:100%;padding-top: 80px">
-          <img class="mySlides" src="img/Museo/Museo3.jpg" style="padding-left: 50px;width:100%;padding-top: 80px">
+          <img class="mySlides2" src="img/Museo/Museo1.jpg" style="padding-left: 50px;width:100%;padding-top: 80px">
+          <img class="mySlides2" src="img/Museo/Museo2.jpg" style="padding-left: 50px;width:100%;padding-top: 80px">
+          <img class="mySlides2" src="img/Museo/Museo3.jpg" style="padding-left: 50px;width:100%;padding-top: 80px">
         </div>        
         <script>
-        var myIndex = 0;
-        carousel();        
-        function carousel() {
+        var myIndex2 = 0;
+        carousel2();        
+        function carousel2() {
           var i;
-          var x = document.getElementsByClassName("mySlides");
+          var x = document.getElementsByClassName("mySlides2");
           for (i = 0; i < 3; i++) {
-            x[i].style.display = "none";  
+            x[i].style.display = "none";
           }
-          myIndex++;
-          if (myIndex > 3) {myIndex = 1}    
-          x[myIndex-1].style.display = "block";  
-          setTimeout(carousel, 4000); // Change image every 4 seconds
+          myIndex2++;
+          if (myIndex2 > 3) {myIndex2 = 1}    
+          x[myIndex2-1].style.display = "block";  
+          setTimeout(carousel2, 4000); // Change image every 4 seconds
         }
-        </script>        
+        </script> 
       </div>
       <div class="col-xs-12 col-md-4 col-md-offset-1">
         <div class="about-text" style="padding-top: 50px;">
@@ -508,69 +508,109 @@
           <img class="mySlides1" src="img/Herbario/Herbario3.JPG" style="width:100%">
         </div>        
         <script>
-        var myIndex = 0;
-        carousel();        
-        function carousel() {
+        var myIndex1 = 0;
+        carousel1();        
+        function carousel1() {
           var i;
           var x = document.getElementsByClassName("mySlides1");
           for (i = 0; i < 3; i++) {
             x[i].style.display = "none";  
           }
-          myIndex++;
-          if (myIndex > 3) {myIndex = 1}    
-          x[myIndex-1].style.display = "block";  
-          setTimeout(carousel, 4000); // Change image every 4 seconds
+          myIndex1++;
+          if (myIndex1 > 3) {myIndex1 = 1}    
+          x[myIndex1-1].style.display = "block";  
+          setTimeout(carousel1, 4000); // Change image every 4 seconds
         }
         </script>
       </div>
     </div>
   </div>
 </div>
-
-<!-- Probando experiencias -->
-<div class="container">
-  <div class="section-title text-center">
-    <h2>Nuestras experiencias</h2>
-  </div>    
-  <div class="w3-content" style="max-width:900px">
-    <img class="mySlides" src="img/Experiencias/Exp1.jpg" style="width:100%;display:none">
-    <img class="mySlides" src="img/Experiencias/Exp3.jpg" style="width:100%">
-    <img class="mySlides" src="img/Experiencias/Exp2.jpg" style="width:100%;display:none">
-  
-    <div class="w3-row-padding w3-section">
-      <div class="w3-col s4">
-        <img class="demo w3-opacity w3-hover-opacity-off" src="img/Experiencias/Exp1.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+<!--Arte Chaska Wasi-->
+<div id="team2" style="padding-bottom: 80px">
+  <div class="container-fluid">  
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="w3-content w3-section" style="max-width:600px;padding-top: 0; margin-top: 0;">
+          <img class="mySlides3" src="img/img-p-1.JPG" style="padding-left: 50px;width:100%;padding-top: 5px">
+          <img class="mySlides3" src="img/img-p-3.JPG" style="padding-left: 50px;width:100%;padding-top: 5px">
+          <img class="mySlides3" src="img/Img_Local.JPG" style="padding-left: 50px;width:100%;padding-top: 5px">
+        </div>        
+        <script>
+        var myIndex3 = 0;
+        carousel3();        
+        function carousel3() {
+          var i;
+          var x = document.getElementsByClassName("mySlides3");
+          for (i = 0; i < 3; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex3++;
+          if (myIndex3> 3) {myIndex3 = 1}    
+          x[myIndex3-1].style.display = "block";  
+          setTimeout(carousel3, 4000); // Change image every 4 seconds
+        }
+        </script> 
       </div>
-      <div class="w3-col s4">
-        <img class="demo w3-opacity w3-hover-opacity-off" src="img/Experiencias/Exp3.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
-      </div>
-      <div class="w3-col s4">
-        <img class="demo w3-opacity w3-hover-opacity-off" src="img/Experiencias/Exp2.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+      <div class="col-xs-12 col-md-4 col-md-offset-1">
+        <div class="about-text" style="padding-top: 50px;">
+          <div class="section-title m-titulo">
+            <h2>Galería de Arte Chaska Wasi</h2>
+          </div>
+          <div class="m-text">
+          <p style="padding-bottom: 0px;">La temática de la galería de arte Chaska Wasi es dedicada a la medicina natural, plantas maestras y la espiritualidad ancestral del ser del Perú. La exposición está a cargo de los alumnos egresados de la prestigiosa universidad Nacional de arte Diego Quispe Tito.</p>
+        </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
-<script>
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+<!-- Probando experiencias -->
+<div id="team" style="background-color: #f6f6f6">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Nuestras experiencias</h2>
+    </div>    
+    <div class="w3-content" style="max-width:560px">
+      <img class="mySlides" src="img/Experiencias/Exp1.jpg" style="width:100%;display:none">
+      <img class="mySlides" src="img/Experiencias/Exp3.jpg" style="width:100%">
+      <img class="mySlides" src="img/Experiencias/Exp2.jpg" style="width:100%;display:none">
+    
+      <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+          <img class="demo w3-opacity w3-hover-opacity-off" src="img/Experiencias/Exp1.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+        </div>
+        <div class="w3-col s4">
+          <img class="demo w3-opacity w3-hover-opacity-off" src="img/Experiencias/Exp3.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+        </div>
+        <div class="w3-col s4">
+          <img class="demo w3-opacity w3-hover-opacity-off" src="img/Experiencias/Exp2.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+  function currentDiv(n) {
+    showDivs(slideIndex = n);
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+    }
+    x[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " w3-opacity-off";
   }
-  x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " w3-opacity-off";
-}
-</script>
+  </script>
+</div>
 <!-- Probando experiencias -->
 
 <!-- Contact Section -->
