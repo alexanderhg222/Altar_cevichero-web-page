@@ -1641,6 +1641,10 @@ pre code {
 .col-xs-4 {
   width: 33.33333333%;
 }
+.col-xs-41 {
+  width: 33.33333333%;
+  height: 20%;
+}
 .col-xs-3 {
   width: 25%;
 }
