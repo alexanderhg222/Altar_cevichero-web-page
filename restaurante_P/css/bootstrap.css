@@ -1127,7 +1127,7 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 90%;
-  height:50%;
+  max-height:50%;
 }
 .img-responsive2,
 .thumbnail > img,
@@ -1135,8 +1135,8 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 90%;
-  height:20%;
+  max-width: 50%;
+  max-height:20%;
 }
 .img-rounded {
   border-radius: 6px;
