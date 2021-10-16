@@ -106,7 +106,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 5px 0;
 	border: 2px solid transparent;
 	letter-spacing: 0.5px;
-	margin: 0 5px 5px 5px;
+	margin: 0 5px 0px 5px;
 	background: #d2b461;
 	border-radius: 10px;
 	
@@ -118,9 +118,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .on {
 	/*background-color: #262626 !important;*/
-	background: url(../img/margen2.jpg)!important;
+	background: url(../img/margen2.jpg)!important ;
 	padding: 0 !important;
-	padding: 10px 0 !important;
+	padding: 1px 0 !important;
 	
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -241,7 +241,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 0;
+	padding: 80px 0;
 	background: #f6f6f6;
 }
 #about h2::after {
@@ -256,11 +256,21 @@ header .intro-text {
 	background: #444 url(../img/img-p-5.jpg) center center no-repeat;
 	background-size: cover;
 	height: 610px;
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-left: 20px;
 	
     left: 5%;
 	top: 30px;
+}
+#team .about-img {
+	background: #444 url(../img/ChefJoel.jpg) center center no-repeat;
+	background-size: cover;
+	height: 410px;
+	padding-top: 10px;
+	padding-left: 20px;
+	
+    left: 5%;
+	top: 0px;
 }
 #about p {
 	line-height: 24px;
@@ -325,7 +335,7 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-	padding: 80px 0;
+	padding: 20px 0;
 }
 #team h2::after {
 	bottom: 0;
@@ -466,7 +476,7 @@ color: #999;
 	width:80px;
 	height:60px;
 	bottom:40px;
-	left:80px;
+	left:30px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -483,4 +493,13 @@ color: #999;
 
 .my-float{
 	margin-top:16px;
+}
+.img-responsive2,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 150%;
+  height:100%;
 }
